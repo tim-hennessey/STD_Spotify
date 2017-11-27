@@ -25,16 +25,6 @@ body {
         width: 100%;
     }
 
-    #button-legal {
-        background-color: rgba(255, 0, 255, 0);
-        cursor: pointer;
-        height: 15px;
-        width: 90px;
-        top: 66px;
-        left: 463px;
-        position: absolute;
-    }
-
     #border {
         border: 3px solid #fff;
         display: block;
@@ -71,24 +61,28 @@ body {
     #circle1 {
         left: 120px;
         top: -33px;
+        transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #circle2 {
         left: 185px;
         top: -36px;
+        transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #circle3 {
         left: 163px;
         top: 33px;
+        transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
     #circle4 {
         left: 230px;
         top: 23px;
+        transform: translate3d(0, 0, 0.1px);
         position: absolute;
     }
 
@@ -111,23 +105,6 @@ body {
         position: absolute;
     }
 
-    #legal {
-        left: 0;
-        top: 0;
-        height: 90px;
-        width: $banner-width;
-        background-color: rgba(0, 0, 0, .8);
-        opacity: 0;
-        pointer-events: none;
-        position: absolute;
-
-        #legal_txt {
-            left: 0;
-            top: 0;
-            position: absolute;
-        }
-    }
-
     #footer {
         background: #FFFFFF;
         right: 0;
@@ -144,7 +121,7 @@ body {
         }
 
         #cta_txt {
-            left: 112px;
+            left: 10px;
             top: 65px;
             opacity: 0;
             clip: rect(0px, 73px, 12px, 0px);
@@ -152,7 +129,7 @@ body {
         }
 
         #cta_arrow {
-            left: 112px;
+            left: 10px;
             top: 65px;
             opacity: 0;
             clip: rect(0px, 83px, 12px, 73px);
